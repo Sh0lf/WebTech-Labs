@@ -1,0 +1,21 @@
+label{
+    display: block;
+}
+
+fieldset{
+    border-style: solid;
+    border-color: red;
+}
+
+.fieldset.legend{
+    color: red;
+}
+
+input{
+    background-color: #FFF3F3;
+    border-color: red;
+}
+
+input:focus{
+    background-color: white;
+}
