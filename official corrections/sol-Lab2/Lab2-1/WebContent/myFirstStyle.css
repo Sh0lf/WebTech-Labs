@@ -1,0 +1,56 @@
+body {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 90%;
+}
+
+form {
+	padding: 10px;
+	width: 400px;
+}
+
+fieldset {
+	padding: 0 20px 20px 20px;
+	margin-bottom: 10px;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.fieldsetM {
+	border-color: red;
+}
+
+.fieldsetF {
+	border-color: blue;
+}
+
+legend {
+	color: red;
+	font-weight: bold
+}
+
+label {
+	margin-top: 10px;
+	display: inline-block;
+	margin-right: 50px;
+	text-align: right;
+	width: 90px;
+}
+
+input {
+	background-color: #FFF3F3;
+	padding: 3px;
+	border: 1px solid red;
+	border-radius: 5px;
+	width: 200px;
+}
+
+input:focus {
+	background-color: white;
+}
+
+input[type=submit] {
+	width: 100px;
+	margin-left: 5px;
+	box-shadow: 1px 1px 1px #D83F3D;
+	cursor: pointer;
+}
