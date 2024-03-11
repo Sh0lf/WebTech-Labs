@@ -3,5 +3,5 @@
 
 it's directly in the git repo like that
 
-## official correction ##
+## Official correction ##
 in the directory, commited as if, for an eclipse project
