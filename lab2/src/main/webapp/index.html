@@ -4,24 +4,25 @@
 <html>
 <head>
     <title>Lab 2 - Index MVC application</title>
+    <script src="scripts/myFirstScript.js"></script>
 </head>
 <body>
-    <h1>Index Page of the MVC Application (Lab1)</h1>
-    <form>
+    <h1 id="titlePage">Index Page of the MVC Application (Lab1)</h1>
+    <form onmousemove="toggleFM()">
         <fieldset>
             <legend>Personal Info:</legend>
-            First Name:<input type="text" name="fName" /><br>
-            Last Name:<input type="text" name="lName" /><br>
+            First Name:<input type="text" id="fName" name="fName" /><br>
+            Last Name:<input type="text" id="lName" name="lName" /><br>
         </fieldset>
         <fieldset>
             <legend>Birth Day:</legend>
-            Date: <input type="text" name="bDay" /><br>
+            Date: <input type="date" id="bDay" name="bDay"/><br><br>
         </fieldset>
         <fieldset>
             <legend>Sex:</legend>
-            Male<input type="radio" name="sex" value="male" checked><br>
-            Female<input type="radio" name="sex" value="female"><br>
+            Male<input type="radio" name="sex" value="male" onclick="toggleFM()" checked><br>
+            Female<input type="radio" name="sex" value="female" onclick="toggleFM()"><br>
         </fieldset>
-        <input type="submit" />
+        <input type="submit" onclick="validateMyForm()"/>
     </form>
 </body></html>
